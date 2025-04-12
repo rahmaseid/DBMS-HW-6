@@ -21,8 +21,10 @@
     - In the XAMPP Control Panel, clock **"Admin"** next to MySQL
     - This open **phpMyAdmin** in your web browser
     - From here, make sure the database 'supplierpartshipment' exists
-      - If not, create it and import the necessary tables: supplier, shipment, part
+      - If it doesn't, download the sql file directly from the github to access it
+      - Then go to the **Import** tab and upload the SQL file with all the table definitions.
 
+  Look for the file: **`supplierpartshipment.sql`**
 
 
 ## Running the Program
