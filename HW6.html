@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 6: Rahma Seid</title>
+    <link href = "HW6.css" type = "text/css" rel = "stylesheet">
+</head>
+<body>
+    <h1 align = "center">Homework 6: Rahma Seid</h1><hr>
+
+    <div>
+        <h2>1. Insert a new tuple ('s2', ‘p3’, 200, 0.006) into SHIPMENT table, and report result</h2>
+        <p><span class="error" style="color:red">Primary keys must not be null!</span></p>
+        <form id="#1" action="http://localhost/HW6.php" method="POST">
+            Sno: <input type="text" name="Sno"> <span class="error">*</span><br>
+            <br>
+            Pno: <input type="text" name="Pno"> <span class="error">*</span><br>
+            <br>
+            Qty: <input type="text" name="Qty"><br>
+            <br>
+            Price: <input type="text" name="Price"><br>
+            <br>
+            <input type = "submit" value="Submit" name="Q1">
+        </form>
+    </div>
+
+    <br>
+
+    <div>
+        <h2>2. Insert a new tuple ('s4', ‘p2’, 100, 0.005) into SHIPMENT table, and report result </h2>
+        <p><span class="error" style="color:red">Primary keys must not be null!</span></p>
+        <form id="#2" action="http://localhost/HW6.php" method="POST">
+            Sno: <input type="text" name="Sno"> <span class="error">*</span><br>
+            <br>
+            Pno: <input type="text" name="Pno"> <span class="error">*</span><br>
+            <br>
+            Qty: <input type="text" name="Qty"><br>
+            <br>
+            Price: <input type="text" name="Price"><br>
+            <br>
+            <input type = "submit" value="Submit" name="Q2">
+        </form>
+    </div>
+
+    <br>
+
+    <div>
+        <h2>3. Increase the status of each supplier by 10%.</h2>
+        <form id="#3" action="http://localhost/HW6.php" method="POST">
+            <select name = "Percent" multiple>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+            </select>
+            <input type = "submit" value="Submit" name="Q3">
+        </form>
+
+    </div>
+
+    <br>
+
+    <div>
+        <h2>4. Display information of all suppliers. </h2>
+        <form id="#4" action="http://localhost/HW6.php" method="POST">
+            <input type = "submit" value="Submit" name="Q4">
+        </form>
+    </div>
+
+    <br>
+
+    <div>
+        <h2>5. Prompt the user to input part no, and display information of all suppliers who shipped 
+            that part. Make sure there is no SQL injection vulnerability.</h2>
+        <form id="#5" action="http://localhost/HW6.php" method="POST">
+            Pno: <input type="text" name="Pno">
+            <input type = "submit" value="Submit" name="Q5">
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+/*HW6.css*/
+span{
+    color: red;
+    font-size: bold;
+}
+
+body{
+    background-color: rgb(230, 209, 173);
+
+}
+
+h1,h2,p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
